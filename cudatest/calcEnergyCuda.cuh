@@ -1,0 +1,2 @@
+float calcPotentialEnergyCuda(float *px, float *py, float *pz, float *m, unsigned int particleNum);
+float calcKineticEnergyCuda(float *px, float *py, float *pz, float *vx, float *vy, float *vz, float *m, unsigned int particleNum);

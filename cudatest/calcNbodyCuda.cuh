@@ -1,0 +1,6 @@
+void calcAcceleration(float *px, float *py, float *pz, float *vx, float *vy, float *vz, float *ax, float *ay, float *az, float *m, int num, float eps2);
+void calcAccelerationJerk(float *px, float *py, float *pz, float *vx, float *vy, float *vz, float *ax, float *ay, float *az, float *jx, float *jy, float *jz, float *m, int num);
+void calcEulerMethod(float *px, float *py, float *pz, float *vx, float *vy, float *vz, float *ax, float *ay, float *az, float *m, int num, float eps2);
+void calcRungeKutta(float *px, float *py, float *pz, float *vx, float *vy, float *vz, float *ax, float *ay, float *az, float *m, int num, float eps2);
+void  calcLeapfrog(float *px, float *py, float *pz, float *vx, float *vy, float *vz, float *ax, float *ay, float *az, float *m, int num, float eps2, float *preax, float *preay, float *preaz);
+void calcHermiteIntegration(float *px, float *py, float *pz, float *vx, float *vy, float *vz, float *ax, float *ay, float *az, float *jx, float *jy, float *jz, float *preax, float *preay, float *preaz, float *prejx, float *prejy, float *prejz, float *m, int num);

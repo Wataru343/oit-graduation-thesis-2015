@@ -1,0 +1,3 @@
+void makeUniformSphere(float *px, float *py, float *pz, float *vx, float *vy, float *vz, float *m, float offset_px, float offset_py, float offset_pz, float offset_vx, float offset_vy, float offset_vz, int particleNum, float radius, float mass, float vr);
+void makePlummer(float *px, float *py, float *pz, float *vx, float *vy, float *vz, float *m, float offset_px, float offset_py, float offset_pz, float offset_vx, float offset_vy, float offset_vz, int particleNum, float radius, float mass, float vr);
+void makeMiyamotoNagai(float *px, float *py, float *pz, float *vx, float *vy, float *vz, float *m, float offset_px, float offset_py, float offset_pz, float offset_vx, float offset_vy, float offset_vz, int particleNum, float a, float b, float mass, float vr);
